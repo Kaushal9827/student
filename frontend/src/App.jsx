@@ -29,7 +29,7 @@ function App() {
 
    <div className='flex w-full overflow-hidden'>
 <Sidebar/>
-<div className='w-[80%] mx-auto my-8 ml-[max(5vw,25px)]   text-base'>
+<div className=' w-[80%] mx-auto my-8 ml-[max(5vw,25px)]   text-base'>
   <Routes>
 <Route path='' element={<Home/>}/>
 <Route path='/profile' element={<Profile/>}/>

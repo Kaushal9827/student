@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Scgpa.css'
 import { useNavigate } from 'react-router-dom'
-import { Search } from 'lucide-react'
 
 function Scgpa() {
   const [sem,setsem]=useState("1")

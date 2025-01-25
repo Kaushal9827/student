@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function Navbar() {
   const navigate= useNavigate()
   return (
-    <div className='navbar  bg-gradient-to-l from-blue-400 to-violet-600 shadow-2xl '>
+    <div className='navbar bg-gradient-to-l from-blue-400 to-violet-600 shadow-2xl '>
       
         <img onClick={()=>navigate('/')} className='logo cursor-pointer' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBSvZKUEfakopELoM-aQsefPmSzRL5ow0Rw&s"  alt="" />
        
