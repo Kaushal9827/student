@@ -16,6 +16,7 @@ function Scgpa() {
 <div className='sem bg-gradient-to-l from-red-200 to-purple-400'>
      <h3 className='animate-bounce'>Select Your Semester</h3>
         <select  onChange={(e)=>setsem(e.target.value)}>
+          <option value="">Select Your Semister</option>
           <option value="1">1st</option>
           <option value="2">2Nd</option>
           <option value="3">3rd</option>
