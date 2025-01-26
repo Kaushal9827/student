@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './One.css'
 import { ArrowLeft } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
